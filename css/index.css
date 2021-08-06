@@ -51,40 +51,86 @@ table {
     box-sizing: border-box;
 }
 
+/* General Styles Section */
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
+section {
+    padding: 4% 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
+}
 
+/* Header Styles Section */
+.main-header {
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.left, .right {
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+
+}
+.leftlogo {
+    width: 15%;
+    padding: 1.5%;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: -2%;
+}
+.right {
+    width: 40%;
+    margin-left: -16%;
+    margin-right: 17.5%;
+    display: flex;
+    
+}
+.top {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Top Styles Section */
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: -1.5%;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: -6%;
+    margin-bottom: -4%;  
 }
 
+/* Middle Styles Section */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -99,6 +145,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: -4%;
 }
 
 .middle-content .boxes .box {
@@ -111,11 +158,44 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .teal {
+    background-color: teal;
+}
+.middle-content .boxes .gold {
+    background-color: gold;
+}
+.middle-content .boxes .cadetblue {
+    background-color: cadetblue;
+}
+.middle-content .boxes .coral {
+    background-color: coral;
+}
+.middle-content .boxes .crimson {
+    background-color: crimson;
+}
+.middle-content .boxes .forestgreen {
+    background-color: forestgreen;
+}
+.middle-content .boxes .darkorchid {
+    background-color: darkorchid;
+}
+.middle-content .boxes .hotpink {
+    background-color: hotpink;
+}
+.middle-content .boxes .indigo {
+    background-color: indigo;
+}
+.middle-content .boxes .dodgerblue {
+    background-color: dodgerblue;
+}
 
+/* Bottom Styles Section */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    margin-top: -4%;
+    margin-bottom: -2%;
 }
 
 .bottom-content .text-container {
@@ -126,6 +206,7 @@ p {
     padding-right: 0;
 }
 
+/* Footer Styles Section */
 footer {
     width: 100%;
     background: black;
@@ -144,3 +225,43 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Section Styles */
+/* General Section Styles */
+.about {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+hr {
+    border-top: 1px dashed black;
+    margin-bottom: 5%;
+    
+}
+
+/* Top Section Styles */
+.top1 {
+    width: 95%;
+    margin-top: -4%;
+    margin-left: 1.5%;
+    margin-bottom: -2%;
+}
+
+/* Middle Section Styles */
+.middle {
+    display: flex;
+    margin-top: -6%;
+    margin-left: 1.5%;
+    margin-right: -2%;
+    margin-bottom: -2%;
+    
+}
+.btn {
+    margin-top: 4%;
+    margin-bottom: -6%;
+    
+}
+
